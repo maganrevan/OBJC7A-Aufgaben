@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DC54CDB21F128BC00FA79C8 /* Aufgabe_2_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC54CDA21F128BC00FA79C8 /* Aufgabe_2_3.m */; };
+		5DC54CDD21F128F000FA79C8 /* Aufgabe_2_4.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC54CDC21F128F000FA79C8 /* Aufgabe_2_4.m */; };
 		5DD9DADE21C66D860069875A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9DADD21C66D860069875A /* main.m */; };
+		5DD9DAE621D912170069875A /* Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9DAE521D912170069875A /* Class.m */; };
+		5DD9DAE921DA81660069875A /* Class2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9DAE821DA81660069875A /* Class2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5DC54CDA21F128BC00FA79C8 /* Aufgabe_2_3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aufgabe_2_3.m; sourceTree = "<group>"; };
+		5DC54CDC21F128F000FA79C8 /* Aufgabe_2_4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aufgabe_2_4.m; sourceTree = "<group>"; };
 		5DD9DADA21C66D860069875A /* OBJC7A Aufgaben */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OBJC7A Aufgaben"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD9DADD21C66D860069875A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DD9DAE421D911ED0069875A /* Class.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Class.h; sourceTree = "<group>"; };
+		5DD9DAE521D912170069875A /* Class.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class.m; sourceTree = "<group>"; };
+		5DD9DAE721DA813C0069875A /* Class2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Class2.h; sourceTree = "<group>"; };
+		5DD9DAE821DA81660069875A /* Class2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,12 @@
 			isa = PBXGroup;
 			children = (
 				5DD9DADD21C66D860069875A /* main.m */,
+				5DD9DAE421D911ED0069875A /* Class.h */,
+				5DD9DAE521D912170069875A /* Class.m */,
+				5DD9DAE721DA813C0069875A /* Class2.h */,
+				5DD9DAE821DA81660069875A /* Class2.m */,
+				5DC54CDA21F128BC00FA79C8 /* Aufgabe_2_3.m */,
+				5DC54CDC21F128F000FA79C8 /* Aufgabe_2_4.m */,
 			);
 			path = "OBJC7A Aufgaben";
 			sourceTree = "<group>";
@@ -118,6 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD9DAE621D912170069875A /* Class.m in Sources */,
+				5DC54CDD21F128F000FA79C8 /* Aufgabe_2_4.m in Sources */,
+				5DD9DAE921DA81660069875A /* Class2.m in Sources */,
+				5DC54CDB21F128BC00FA79C8 /* Aufgabe_2_3.m in Sources */,
 				5DD9DADE21C66D860069875A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
